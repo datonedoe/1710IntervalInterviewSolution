@@ -86,7 +86,7 @@ var promoBox = $(".item-box:last").clone().html(`
   </div>
   <div class="div">
     <p class="text-center small">${promoItem.name}<br>
-    $${promoItem.price}</p>
+    ${promoItem.price}</p>
   </div>
   `);
 
