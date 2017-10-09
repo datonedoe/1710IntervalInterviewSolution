@@ -1,0 +1,68 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.07rem; }
+
+.active {
+  border-bottom: 1px solid white;
+  padding-bottom: 0px; }
+
+body {
+  background: #343A40; }
+
+.fixed-top {
+  width: inherit !important; }
+
+div#homeSection #home {
+  background: url("https://images.unsplash.com/photo-1481930703900-9007d48152b1?dpr=1&auto=compress,format&fit=crop&w=1972&h=&q=80&cs=tinysrgb&crop=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; }
+
+div#guysSection #guys {
+  background: url("https://images.unsplash.com/photo-1498037388292-44d29bf00502?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=75da9f2be2e82b86fcc339a8967d21f7");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; }
+
+div#girlsSection #girls {
+  background: url("https://images.unsplash.com/photo-1484399172022-72a90b12e3c1?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=a961bb9ee33ec4e14f6170f9218e42e6");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; }
+
+div#kidsSection #kids {
+  background: url("https://images.unsplash.com/photo-1483489571097-0ca295ba3d08?dpr=1&auto=compress,format&fit=crop&w=1952&h=&q=80&cs=tinysrgb&crop=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; }
+
+div#discountSection #discount {
+  background: url("https://images.unsplash.com/photo-1481495278953-0967c9759b78?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=b24db81c922abbfaa68e74dbf9914ce5");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; }
+
+.btnDiv {
+  position: relative;
+  top: 80%;
+  left: 10%;
+  letter-spacing: 0.3rem; }
+  .btnDiv .btn {
+    background: rgba(0, 0, 0, 0.4);
+    color: rgba(255, 255, 255, 0.5); }
+  .btnDiv .btn:hover {
+    background: rgba(0, 0, 0, 0.6);
+    color: rgba(255, 255, 255, 0.7); }
+  .btnDiv .btn:focus {
+    outline: none;
+    box-shadow: none; }
+
+#page2 {
+  padding-top: 80px; }
+  #page2 #header-img {
+    background: url("https://images.unsplash.com/photo-1426523038054-a260f3ef5bc9?dpr=1&auto=compress,format&fit=crop&w=1932&h=&q=80&cs=tinysrgb&crop=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh; }
+  #page2 .shopBody {
+    color: white; }
